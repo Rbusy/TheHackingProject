@@ -1,3 +1,13 @@
+@font-face {
+    font-family: papyrus;
+    src: url(papyrus.ttf);
+}
+
+@font-face {
+    font-family: comic-sans;
+    src: url(comic.ttf);
+}
+
 body {
 
 	padding-top: 1%;
