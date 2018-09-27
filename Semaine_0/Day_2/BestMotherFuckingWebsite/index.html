@@ -15,7 +15,7 @@
         <div class="block" onclick="addcontrast();">
             <u>Add more contrast</u>
         </div>
-        <div class="block2" onclick="swapcolor();">
+        <div class="block2" onclick="swapcolor();" value="Inverted mode">
             <u>Inverted mode</u>
         </div>
     </nav>
@@ -49,9 +49,7 @@
         </ul>
 
         <script>
-            function setRandomColor() {
-                 $("#random_color").css("color", getRandomColor()); }
-             setInterval(function () { setRandomColor(); }, 400);
+                setInterval(function () { setRandomColor(); }, 400);
         </script>
 
         <h2>Well guess what, motherfucker:</h2>

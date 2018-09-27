@@ -9,11 +9,13 @@ function getRandomColor() {
 }
 
 function swapcolor() {
-	if ($(".block2").html("Inverted mode")) {
+	if ($(".block2").html("vroum")) {
+		alert('test');
 		$("body").css("background-color", "black");
 		$(".block2").html("Normal mode");
 	}
-	else if ($(".block2").html("Inverted mode")) {
+	else if ($(".block2").html("Normal mode")) {
+		alert('test2');
 		$("body").css("background-color", "white");
 		$(".block2").html("Inverted mode");
 	}
@@ -22,3 +24,7 @@ function swapcolor() {
 function addcontrast() {
 
 }
+
+function setRandomColor() {
+    	$("#random_color").css("color", getRandomColor());
+ }
