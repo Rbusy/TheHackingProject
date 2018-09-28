@@ -1,7 +1,7 @@
 puts 'Entrez votre année de naissance'
 nbr = gets.chomp.to_i
 nbr2 = 0
-while nbr <= 2017 do
+while nbr <= (Time.now.year - 1) do
 	print nbr
 	print ' '
 	puts nbr2
