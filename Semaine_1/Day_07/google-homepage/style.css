@@ -46,9 +46,19 @@ nav {
 }
 
 #search-text {
+	font-size: 18px;
 	position: relative;
-	top: -45px;
+	top: -47px;
+	right: 17px;
 	border-style: none;
+	width: 500px;
+	height: 25px;
+	border-color: none;
+	outline: none;
+}
+
+p, a, button {
+	font-family: "Arial";
 }
 
 #container {
@@ -71,6 +81,8 @@ button {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-style: none;
+	color: rgb(92, 92, 92);
+	background-color: rgb(242, 242, 242);
 }
 
 #a_button {
@@ -80,22 +92,44 @@ button {
 
 footer {
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
 	width: 1920px;
 	height: 70px;
+	color: rgb(122, 122, 122);
 }
 
+#France {
+	font-size: 17px;
+	line-height: 50px;
+	border-style: solid;
+	height: 45px;
+	padding-left: 20px;
+	background-color: rgb(242, 242, 242);
+	border-color: rgb(227, 227, 227);
+	border-width: 1px;
+}
 
 #nav_footer {
-	padding: 10px;
-
+	padding-left: 30px;
+	height: 40px;
+	background-color: rgb(242, 242, 242);
 }
 
 #footer_right {
-	position: relative;
 	float: right;
 }
 
-#footer_left {
-	float: left;
+.a_footer {
+	text-decoration: none;
+	color: rgb(122, 122, 122);
+	padding-right: 15px;
+}
+
+.a_footer:hover {
+	text-decoration: underline;
+}
+
+#google_off {
+
+	font-size: 14px;
 }
