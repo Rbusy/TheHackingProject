@@ -17,7 +17,7 @@ span {
 	position: relative;
 	top: 10px;
 	right: 14px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .text {
@@ -87,7 +87,11 @@ button {
 
 #a_button {
 	text-decoration: none;
-	color: blue;
+	color: rgb(63, 3, 172);
+}
+
+#a_button:hover {
+	text-decoration: underline;
 }
 
 footer {
@@ -132,4 +136,10 @@ footer {
 #google_off {
 
 	font-size: 14px;
+}
+
+button:hover {
+	color: black;
+	border-style: solid;
+	border-width: 2px;
 }

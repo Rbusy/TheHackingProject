@@ -4,6 +4,137 @@
 }
 
 nav {
-	height: 500px;
-	background-color: black;
+	height: 110px;
+	background-color: rgb(250, 250, 250);
+	border-bottom-style: solid;
+	border-bottom-color: rgb(234, 234, 234);
+	border-bottom-width: 1px;
+}
+
+#nav_google {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+#search_google {
+	margin: 10px;
+}
+
+#nav_google {
+	padding: 15px;
+}
+
+#nav_top_right{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(126, 126, 126);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav_bot {
+	margin-left: 175px;
+	width: 590px;
+}
+
+#a_nav_right {
+	float: right;
+}
+
+.a_nav {
+	padding-left: 20px;
+}
+
+#nav_top_right {
+	float: right;
+	position: relative;
+	top: 30px;
+	height: 105px;
+	padding-right: 20px;
+}
+
+.a_nav_icon {
+	padding-left: 10px;
+}
+
+#search-text {
+	font-size: 16px;
+	position: relative;
+	top: -30px;
+	right: 590px;
+	border-style: none;
+	width: 500px;
+	height: 25px;
+	border-color: none;
+	outline: none;
+}
+
+#container {
+	width: 600px;
+	height: 2000px;
+	margin: auto;
+	position: relative;
+	right: 460px;
+	padding-top: 10px;
+}
+
+p {
+	color: rgb(126, 126, 126);
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+#page4 {
+	position: relative;
+	left: -10px;
+}
+
+footer {
+	position: absolute;
+	bottom: -1390px;
+	width: 1920px;
+	height: 70px;
+	color: rgb(122, 122, 122);
+}
+
+#France {
+	padding-left: 200px;
+	padding-bottom: 10px;
+	font-size: 17px;
+	line-height: 50px;
+	border-style: solid;
+	height: 45px;
+	background-color: rgb(242, 242, 242);
+	border-color: rgb(227, 227, 227);
+	border-width: 1px;
+}
+
+#nav_footer {
+	padding-left: 200px;
+	padding-top: 20px;
+	height: 40px;
+	background-color: rgb(242, 242, 242);
+}
+
+#footer_right {
+	float: right;
+}
+
+.a_footer {
+	text-decoration: none;
+	color: rgb(122, 122, 122);
+	padding-right: 15px;
+}
+
+.a_footer:hover {
+	text-decoration: underline;
 }
