@@ -77,3 +77,25 @@ button {
 	text-decoration: none;
 	color: blue;
 }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 1920px;
+	height: 70px;
+}
+
+
+#nav_footer {
+	padding: 10px;
+
+}
+
+#footer_right {
+	position: relative;
+	float: right;
+}
+
+#footer_left {
+	float: left;
+}
