@@ -24,7 +24,7 @@ def contain_aude(tableau)
 end
 
 def start_with_upper(tableau)
-	result = 0
+	result = -3
 
 	tableau.each do |item|
 		i = 1
