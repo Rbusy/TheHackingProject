@@ -1,0 +1,13 @@
+CREATE TABLE 'cours' (
+  'cours' TEXT,
+  'titre' TEXT,
+  'description' TEXT,
+  'cours_id' INTEGER
+);
+
+CREATE TABLE 'lecon' (
+  'lecon' TEXT,
+  'titre' TEXT,
+  'description' TEXT,
+  'cours_original' INTEGER
+);

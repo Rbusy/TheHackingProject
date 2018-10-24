@@ -1,0 +1,17 @@
+CREATE TABLE 'user' (
+  'id' INTEGER AUTO_INCREMENT,
+  'user' TEXT,
+  'user_id' INTEGER
+);
+
+CREATE TABLE 'lien' (
+  'user_who_posted_it' INTEGER,
+  'lien_id' INTEGER
+);
+
+CREATE TABLE 'commenter' (
+  'to_comment' INTEGER,
+  'id' INTEGER AUTO_INCREMENT,
+  'user_who_comment' INTEGER,
+  'text' TEXT
+);
